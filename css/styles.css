@@ -94,7 +94,10 @@ button {
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
+.button:hover,
+.button:focus {
+  background-color: var(--pressed-state);
+}
 /* Features */
 
 .features-header {
