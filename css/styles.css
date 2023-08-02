@@ -28,7 +28,9 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--dark);
 }
-
+button {
+  cursor: pointer;
+}
 /* Header */
 .nav {
   color: var(--dark);
@@ -78,7 +80,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11; /* 40px 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -88,7 +90,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2px; /* 24px 120% */
   letter-spacing: 0.4px;
 }
 .features-text {
@@ -97,7 +99,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 24px 150% */
   letter-spacing: 0.32px;
 }
 /* Our Team */
@@ -111,7 +113,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11; /* 40px 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -122,7 +124,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2; /* 24px 120% */
   letter-spacing: 0.4px;
 }
 .team-text {
@@ -132,7 +134,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 24px 150% */
   letter-spacing: 0.32px;
 }
 /* Our Portfolio */
@@ -143,7 +145,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11; /* 40px 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -153,7 +155,7 @@ body {
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2; /* 24px 120% */
   letter-spacing: 0.4px;
 }
 .portfolio-text {
@@ -162,7 +164,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 24px 150% */
   letter-spacing: 0.32px;
 }
 /* Footer */
@@ -175,6 +177,6 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5; /* 24px 150% */
   letter-spacing: 0.32px;
 }
