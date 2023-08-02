@@ -23,6 +23,12 @@ a {
   text-decoration: none;
 }
 
+/* Base styles */
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--dark);
+}
+
 /* Header */
 .nav {
   color: var(--dark);
