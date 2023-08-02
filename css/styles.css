@@ -31,7 +31,20 @@ body {
 button {
   cursor: pointer;
 }
+.logo {
+  color: var(--primary-brand);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 21px 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 /* Header */
+.studio-header {
+  color: var(--dark);
+}
 .nav-link {
   color: var(--dark);
   font-size: 16px;
@@ -150,6 +163,9 @@ button {
   letter-spacing: 0.32px;
 }
 /* Footer */
+.studio-footer {
+  color: var(--light);
+}
 .footer {
   background-color: var(--dark);
 }
