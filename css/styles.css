@@ -62,6 +62,9 @@ button {
 .nav-link:focus {
   color: var(--pressed-state);
 }
+.address {
+  font-style: normal;
+}
 .address-link {
   color: var(--text);
   font-size: 16px;
@@ -87,10 +90,15 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 60px 107.143% */
-  letter-spacing: 1.12px;
+  letter-spacing: 0.04em;
 }
 .button {
   color: var(--white-background);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 24px 150% */
+  letter-spacing: 0.64px;
   background: var(--iris, #4d5ae5);
 }
 .button:hover,
@@ -100,6 +108,7 @@ button {
 /* Features */
 
 .features-header {
+  color: var(--dark);
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -128,6 +137,7 @@ button {
   background: var(--light);
 }
 .team-header {
+  color: var(--dark);
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -158,6 +168,7 @@ button {
 /* Our Portfolio */
 
 .portfolio-header {
+  color: var(--dark);
   text-align: center;
   font-size: 36px;
   font-style: normal;
