@@ -137,6 +137,7 @@ button {
   text-transform: capitalize;
 }
 .team-title {
+  color: var(--dark);
   text-align: center;
   font-size: 20px;
   font-style: normal;
