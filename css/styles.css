@@ -90,7 +90,7 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 60px 107.143% */
-  letter-spacing: 0.04em;
+  letter-spacing: 0.02em;
 }
 .button {
   color: var(--white-background);
@@ -118,6 +118,7 @@ button {
   text-transform: capitalize;
 }
 .features-title {
+  color: var(--dark);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
