@@ -144,6 +144,9 @@ button {
   line-height: 1.2; /* 24px 120% */
   letter-spacing: 0.4px;
 }
+.team-card {
+  background-color: var(--white-background);
+}
 .team-text {
   color: var(--text);
   text-align: center;
